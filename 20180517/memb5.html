@@ -1,0 +1,26 @@
+
+<!doctpye html><!--  memb5.html -->
+<html><head><meta charset="utf-8"/>
+<style>
+#section0 { width:400px; height:240px; border:solid 1px lightgray; border-radius:1em; }
+ul { list-style:none; }
+ul.level_1 > li { display:inline-block; }
+.level_1 span { display:inline-block; width:70px;}
+.level_1 input { width:100px;} .level_1 input[type="checkbox"] {width:20px;}
+button { width:70px; height:25px;}
+</style>
+<title>로그인 실습</title></head>
+<body>
+<section id="section0"><h4>회원 가입</h4>
+<form action="http://jsp.dju.ac.kr/~kdhongx/ex/memb5.jsp" method="post">
+<ul class="level_1">
+<li> <span>아이디</span></li> <li> <input type="text" name="namex"></li> <li><button>중복확인</button></li>
+</ul>
+<ul class="level_1">
+<li><span>비밀번호</span></li><li><input type="password" name="passx"></li></ul>
+<ul class="level_1">
+<li> <span> 코스 </span> </li> <li> <input type="checkbox" name="course" value="jajang"> 자장면</li>
+<li> <input type="checkbox" name="course" value="jjambbong">짬뽕 </li> <li> <input type="checkbox" name="course" value="tangsu"> 탕수육 </li></ul>
+<ul class="level_1">
+<li><button>회원가입</button></li> <li><button>취소</button></li></ul></form>
+</section></body></html>
